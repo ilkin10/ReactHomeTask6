@@ -36,3 +36,149 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* AddProduct.css */
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #ff6457;
+  color: #fff;
+  border: none;
+  padding: 16px 26px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 30%;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ff4c41;
+}
+
+button:active {
+  background-color: #ff3327;
+}
+
+
+
+.card {
+  transform-style: preserve-3d;
+  position: relative;
+  padding: 30px;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(
+    25deg,
+    rgba(75, 53, 118, 1) 0%,
+    rgba(248, 177, 60, 1) 86%
+  );
+  transition: all 0.1s ease;
+}
+.sneaaker-img {
+  width: 110%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+.title,
+.card p {
+  width: 100%;
+  color: rgb(220, 220, 220);
+}
+.sizes-box {
+  width: 100%;
+  display: flex;
+  margin-left: -40px;
+  justify-content: space-between;
+}
+.sizes-box li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(220, 220, 220);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sizes-box li:hover {
+  background-color: rgb(134, 134, 134);
+}
+.button-box {
+  width: 100%;
+  margin-top:20px;
+  margin-bottom: 80px;
+}
+.purchase {
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30px;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-color: rgba(248, 177, 60, 1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.purchase:hover {
+  background-color: rgb(222, 157, 54);
+}
